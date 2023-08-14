@@ -5,17 +5,18 @@ import { Careers } from '../components/Careers';
 /** The home page of the application. */
 export const Home = () => {
   return (
-    <Container className='align-content-center'>
+    <Container>
       <Row className="justify-content-md-center">
        <Col className='text-center'>
           <h1>Charlie Robison</h1>
         </Col>
       </Row>
-      <Row className="justify-content-md-center">
-        <Col className='text-center'>
+      <Row>
+        <Col>
           <About />
         </Col>
       </Row>
+      <br /><br />
       <Row className="justify-content-md-center">
         <Col>
           <Careers />
