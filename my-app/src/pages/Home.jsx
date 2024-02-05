@@ -1,6 +1,7 @@
 import { Container, Row, Col } from 'react-bootstrap';
 import { About } from '../components/About';
 import { Careers } from '../components/Careers';
+import { Projects } from '../components/Projects';
 
 /** The home page of the application. */
 export const Home = () => {
@@ -29,7 +30,7 @@ export const Home = () => {
       </Row>
       <Row className="justify-content-md-center">
         <Col className='text-center'>
-          <h1>Projects</h1>
+          <Projects />
         </Col>
       </Row>
     </Container>
