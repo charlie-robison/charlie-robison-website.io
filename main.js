@@ -21,7 +21,7 @@ const projects = [
         projectName: 'Reciept Analytics',
         image: './images/receipt-analytics-summary.png',
         link: 'https://github.com/charlie-robison/reciept-analytics',
-        summary: 'A big data analytics application which categorizes receipts and products by categories based on a Machine Learning model trained to classfiy receipts and products based on word embeddings.',
+        summary: 'A big data analytics application which categorizes receipts and products by categories based on a Machine Learning model trained to classfiy receipts and products using word embeddings.',
         date: 'November 2023 - December 2023',
         skills: 'Jupyter Notebook, Python, Big Data Analytics, Machine Learning Models, Visualization, Prompt Engineering, Classification, Data Science',
         description: 'For my Big Data Analytics course my partner and I were tasked to create an application that parses unstructured receipt texts into structured JSON text using a prompt we engineered for ChatGPT. This structured JSON is then used to identify products which are classfied into specufic categories based on a machine learning model we trained and tested which uses classification of word embeddings. Receipts would be categorized based on the average word embeddings from the product classifications. We then identified statistics and visualized them with MatplotLib.',

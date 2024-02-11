@@ -49,18 +49,25 @@ body {
 }
 
 #navbar {
-    color: black;
     text-align: center;
 }
 
 #navbar ul {
     padding-left: 0px;
     padding-top: 20px;
+    color: #000000;
     list-style: none;
     text-align: center;
 }
 
 #navbar li {
+    display: inline-block;
+    background-color: #f4f4f4;
+    padding: 12px 50px;
+    border: 1px solid #000000;
+}
+
+#navbar li:hover {
     display: inline-block;
     background-color: #cccccc;
     padding: 12px 50px;
@@ -100,7 +107,7 @@ body {
 #contact-box {
     background-color: #d0cfcf;
     padding: 10px 0;
-    margin: 0 30%;
+    margin: 0 10%;
 }
 
 #contact-box p {
