@@ -1,14 +1,5 @@
 const projects = [
     {
-        projectName: 'Social Plai Website',
-        image: './images/Social-Plai-Demo.mp4',
-        link: '',
-        summary: 'A real-time web application which utilizes social interactions in video games to diagnose developmental delays.',
-        date: 'May 2023 - August 2023',
-        skills: 'Javascript, React JS, Meteor JS, MongoDB Atlas, AWS EC2, Bootstrap, Git Version Control',
-        description: 'As part of an internship with the Hawaii Digital Health Lab, I worked in a team of multiple people to develop a web application that diagnoses developmental delays in children by playing multiplayer video games with one another and interacting with one another. The website needed to incorporate the interaction between users whether it be through recording the users while playing the video or through chat messages. My responsibility was to build a fully-functioning message system which allows users to communicate with one another, invite each other to play games on the platform and hold multiple conversations in a neat manner which does not impact the user experience negatively. I was also in charge of deploying the web application on AWS using an EC2 instance and connected MongoDB atlas, a cloud database server, to the deployed application. I also built an online video game on the platform which helps monitor visual motor skills to help diagnose users with potential developmental delays. The frontend of this project was developed with ReactJS and plain HTML, CSS, and Javascript while the backend was developed using MeteorJS as well as MongoDB and AWS S3 bucket. The entire application was deployed on an AWS EC2 instance.',
-    },
-    {
         projectName: 'Hurricane Simulator',
         image: './images/Hurricane-Simulator-Demo.mp4',
         link: 'https://github.com/Karamperidou-Research-Group-UHM/hurricane-path-game',
@@ -16,6 +7,15 @@ const projects = [
         date: 'January 2023 - June 2023',
         skills: 'Python, Javascript, React JS, Django Rest Framework, Docker, Bootstrap CSS, Conda Environments, HTML, CSS',
         description: 'As part of the Karamperidou Research Group, I was tasked to develop a hurricane simulator for the pacific ocean which predicts where a hurricane will go based on the winds, the sea surface temperature, and the location of pressure systems. The pressure systems can be moved around which influence the directions of the wind arrows which in turn affects the path of a hurricane. I was tasked to build the frontend which allows users to control the pressure systems, choose seasons, etc. to effect hurricane paths. I was also tasked to build a REST API using Django rest framework which reads in 50 years of NOAA data for sea surface temperature and winds and outputs averages for both for each longitude and latitude point. The frontend takes this data and projects it on the screen for the viewer to view. The frontend was built with plain Javascript, HTML, and CSS and the backend was built using Django Rest Framework. The application is put into two docker containers, one for the frontend and one for the frontend which condenses the dependencies for both and allows the application to be easily deployed in the future.',
+    },
+    {
+        projectName: 'Social Plai Website',
+        image: './images/Social-Plai-Demo.mp4',
+        link: '',
+        summary: 'A real-time web application which utilizes social interactions in video games to diagnose developmental delays.',
+        date: 'May 2023 - August 2023',
+        skills: 'Javascript, React JS, Meteor JS, MongoDB Atlas, AWS EC2, Bootstrap, Git Version Control',
+        description: 'As part of an internship with the Hawaii Digital Health Lab, I worked in a team of multiple people to develop a web application that diagnoses developmental delays in children by playing multiplayer video games with one another and interacting with one another. The website needed to incorporate the interaction between users whether it be through recording the users while playing the video or through chat messages. My responsibility was to build a fully-functioning message system which allows users to communicate with one another, invite each other to play games on the platform and hold multiple conversations in a neat manner which does not impact the user experience negatively. I was also in charge of deploying the web application on AWS using an EC2 instance and connected MongoDB atlas, a cloud database server, to the deployed application. I also built an online video game on the platform which helps monitor visual motor skills to help diagnose users with potential developmental delays. The frontend of this project was developed with ReactJS and plain HTML, CSS, and Javascript while the backend was developed using MeteorJS as well as MongoDB and AWS S3 bucket. The entire application was deployed on an AWS EC2 instance.',
     },
     {
         projectName: 'HI DOE Bill Tracker',
