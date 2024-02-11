@@ -37,9 +37,9 @@ const projects = [
     },
 ];
 
+
 // Adds each project to the web page.
 projects.map(project => {
-    console.log(project.projectName);
     const projectList = document.querySelector('#project-list');
     const entry = document.createElement('li');
     entry.className = 'project';
