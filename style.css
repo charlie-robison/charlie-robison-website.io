@@ -76,6 +76,7 @@ body {
     display: inline-block;
     background-color: #f4f4f4;
     padding: 12px 50px;
+    margin: 10px 0;
     border: 1px solid #000000;
 }
 
@@ -83,6 +84,7 @@ body {
     display: inline-block;
     background-color: #cccccc;
     padding: 12px 50px;
+    margin: 10px 0;
     border: 1px solid #000000;
 }
 
