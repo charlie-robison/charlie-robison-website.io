@@ -12,6 +12,7 @@ body {
 }
 
 #main-header ul {
+    padding-left: 0px;
     padding-top: 20px;
     list-style: none;
     text-align: center;
@@ -53,13 +54,14 @@ body {
 }
 
 #navbar ul {
+    padding-left: 0px;
     padding-top: 20px;
     list-style: none;
     text-align: center;
 }
 
 #navbar li {
-    display: inline;
+    display: inline-block;
     background-color: #cccccc;
     padding: 12px 50px;
     border: 1px solid #000000;
@@ -68,6 +70,10 @@ body {
 #navbar a {
     text-decoration: none;
     color: #000000;
+}
+
+#bio-paragraph {
+    font-size: 18px;
 }
 
 #projects ul {

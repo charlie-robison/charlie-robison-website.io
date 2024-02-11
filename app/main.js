@@ -48,6 +48,7 @@ projects.map(project => {
     if (project.link === '') {
         entry.innerHTML = 
         `<h2>${project.projectName}</h2>
+        <h3>${project.date}</h3>
         <h4>${project.summary}</h4>
         <img src="${project.image}" alt="${project.image}">
         <h3>Skills: ${project.skills}</h3>
@@ -56,6 +57,7 @@ projects.map(project => {
     } else {
         entry.innerHTML = 
         `<h2>${project.projectName}</h2>
+        <h3>${project.date}</h3>
         <h4>${project.summary}</h4>
         <a href="${project.link}"><img src="${project.image}" alt="${project.image}"></a>
         <h3>Skills: ${project.skills}</h3>
